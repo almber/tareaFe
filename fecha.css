@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+#fecha{
+    border-radius: .5em;
+}
+
+#mes{
+    border-radius: .5em;
+}
+
+#year{
+    border-radius: .5em;
+}
+
+button{
+    margin-top: 35px;
+    border-radius: .5em;
+    background-color: aqua;
+}

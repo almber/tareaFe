@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fecha</title>
+    <link rel="stylesheet" href="./fecha.css">
+</head>
+<body>
+    <h1>Calendario</h1>
+    <form>
+        <label for="fecha">Fecha:</label>
+        <input type="number" min="1" max="31" id="fecha" />
+        <label for="mes">Mes:</label>
+        <select name="mes" id="mes">
+            <option value="0">Enero</option>
+            <option value="1">Febrero</option>
+            <option value="2">Marzo</option>
+            <option value="3">Abril</option>
+            <option value="4">Mayo</option>
+            <option value="5">Junio</option>
+            <option value="6">Julio</option>
+            <option value="7">Agosto</option>
+            <option value="8">Septiembre</option>
+            <option value="9">Octubre</option>
+            <option value="10">Noviembre</option>
+            <option value="11">Diciembre</option>
+        </select>
+        <label for="year">Año:</label>
+        <input id="year" type="number" min="2000" max="2030" />
+    </form>
+    <div style="text-align: center;">
+    <button type="button" id="check-date">Comprobar Fecha</button>
+    </div>
+    <h1 id="resultado">!!</h1>
+    <script src="./fecha.js"></script>
+</body>
+</html>
